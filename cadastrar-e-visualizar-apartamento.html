@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar apartamento</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/images/favicon.ico" type="image/x-icon">
+    <script src="script/script-cadastro.js" defer type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>CADASTRO DE APTO E MORADOR</h1>
+
+    <form action="">
+        <div>
+            <label for="nome_condominio">Nome do Condominio: </label>
+            <input type="text" class="inputs" id="nome_condominio">
+        </div>
+        <div>
+            <label for="numero_apartamento">Número do Apartamento: </label>
+            <input type="text" class="inputs" id="numero_apartamento">
+        </div>
+        <div>
+            <label for="nome_inquilino">Nome do Inquilino: </label>
+            <input type="text" class="inputs" id="nome_inquilino">
+        </div>
+        <div class="botoes-cadastrar-e-voltar">
+            <div class="botao">
+                    <button type="button" onclick="cadastrarApartamento()">Cadastrar</button>
+            </div>
+            <a href="dashboard.html" class="botao">
+                <h3>Voltar</h3>
+            </a>
+        </div>
+        <hr>
+    </form>
+    <div class="listar-apartamentos">
+        <button onclick="listarApartamentos()">Listar</button>
+    </div>
+</body>
+
+</html>

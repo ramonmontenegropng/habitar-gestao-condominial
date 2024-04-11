@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/images/favicon.ico" type="image/x-icon">
+    <script src="script/script.js" defer type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <form>
+
+        <h1 class="title">LOGIN</h1>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="text" placeholder="example@example.com" class="inputs required" oninput="validarEmail()">
+            <span class="span-required">Digite um e-mail válido</span>
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="*********" class="inputs required" oninput="validarSenha()">
+        </div>
+
+        <a class="cadastrar" href="recuperar-senha.html">Esqueceu sua senha?</a>
+
+    </form>
+
+    <div class="botao">
+        <a href="lista-condominios.html">
+            <button type="submit">Login</button>
+        </a>
+    </div>
+
+    <div class="cadastrarse">
+        <h3>Não possui conta? Cadastre-se!</h3>
+    </div>
+
+    <div class="botao">
+        <a href="cadastrar-usuario.html">
+            <button type="submit">Cadastrar</button>
+        </a>
+    </div>
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>

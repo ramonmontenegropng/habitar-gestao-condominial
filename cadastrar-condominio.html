@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Condomínio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/images/favicon.ico" type="image/x-icon">
+    <script src="script/script.js" defer type="text/javascript"></script>
+</head>
+
+<body>
+
+    <h1 class="title">CADASTRO DE CONDOMÍNIO</h1>
+
+    <form>
+
+        <label for="nome">Nome</label>
+        <input type="text" class="inputs" id="nome" name="nome" required>
+
+        <label for="localizacao">Localização</label>
+        <input type="text" class="inputs" id="localizacao" name="localizacao" required>
+
+        <label for="blocos">Quantidade de Blocos</label>
+        <input type="number" class="inputs" id="blocos" name="blocos" required>
+
+        <label for="apartamentos">Quantidade de Apartamentos</label>
+        <input type="number" class="inputs" id="apartamentos" name="apartamentos" required>
+
+        <label for="vagas">Quantidade de Vagas por Apartamento</label>
+        <input type="number" class="inputs" id="vagas" name="vagas" required>
+
+        <label for="areas-comuns">Áreas Comuns</label>
+        <input type="text" class="inputs" id="areas-comuns" name="areas-comuns" required>
+
+        <label for="fotos">Fotos</label>
+        <input type="file" class="inputs" id="fotos" name="fotos" accept="image/*" multiple required>
+
+    </form>
+
+    <div class="botao">
+        <a href="lista-condominios.html">
+            <button type="submit">Cadastrar</button>
+        </a>
+    </div>
+
+</body>
+
+</html>

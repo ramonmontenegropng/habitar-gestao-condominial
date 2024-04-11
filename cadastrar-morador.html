@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Morador</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/images/favicon.ico" type="image/x-icon">
+    <script src="script/script.js" defer type="text/javascript"></script>
+</head>
+
+<body>
+
+    <h1 class="title">CADASTRO DE MORADOR</h1>
+
+    <form>
+
+        <label for="nome">Nome do Responsável</label>
+        <input type="text" class="inputs" id="nome" name="nome" required>
+
+        <label for="localizacao">Telefone</label>
+        <input type="text" class="inputs" id="telefone-morador" name="telefone-morador" required>
+
+        <label for="blocos">CPF</label>
+        <input type="text" class="inputs" id="cpf-morador" name="cpf-morador" required>
+
+        <div class="moradorouinquilino">
+
+            
+            <label for="blocos">Dono</label>
+            <input type="radio" class="inputs" id="dono" name="dono" required>
+
+            <label for="blocos">Inquilino</label>
+            <input type="radio" class="inputs" id="inquilino" name="inquilino" required>
+
+        </div>
+
+        <label for="apartamentos">Quantidade de Moradores</label>
+        <input type="number" class="inputs" id="quantidade-moradores" name="quantidade-moradores" required>
+
+        <label for="vagas">Quantidade de Veículos</label>
+        <input type="number" class="inputs" id="quantidade-veiculos" name="quantidade-veiculos" required>
+
+        <label for="areas-comuns">Apartamento e Bloco</label>
+        <input type="text" class="inputs" id="apartamento-bloco" name="apartamento-bloco" required>
+
+        <label for="fotos">Foto do Morador</label>
+        <input type="file" class="inputs" id="fotos" name="fotos" accept="image/*" multiple required>
+
+    </form>
+
+    <div class="botao">
+        <a href="dashboard.html">
+            <button type="submit">Cadastrar</button>
+        </a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenções</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/images/favicon.ico" type="image/x-icon">
+    <script src="script/script.js" defer type="text/javascript"></script>
+</head>
+
+<html>
+    <form>
+        <h1>MANUTENÇÕES</h1>
+        <div>
+            <label for="nome_condominio">Nome do Condominio: </label>
+            <input type="text" class="inputs" id="nome_condominio">
+        </div>
+        <div>
+            <label for="data-manutencao">Data do Serviço: </label>
+            <input type="date" class="inputs" id="data-manutencao">
+        </div>
+        <div>
+            <label for="nome-responsavel">Responsável: </label>
+            <input type="text" class="inputs" id="nome-responsavel">
+        </div>
+        <div>
+            <label for="nome-empresa">Empresa: </label>
+            <input type="text" class="inputs" id="nome-empresa">
+        </div>
+        <div>
+            <label for="servico-realizado">Serviço Realizado: </label>
+            <textarea name="servico" class="texto-servico" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+
+    <div class="botao">
+        <a href="">
+            <button type="submit">Adicionar</button>
+        </a>
+    </div>
+
+    <div class="botao">
+        <a href="">
+            <button type="submit">Listar</button>
+        </a>
+    </div>
+
+    <a href="dashboard.html" class="botao">
+        <h3>Voltar</h3>
+    </a>
+</html>

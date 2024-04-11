@@ -1,0 +1,37 @@
+CADASTRAR SÍNDICO/ADMINISTRADORA PARA ACESSO AO APP (OK)
+- Login
+- E-mail
+- Senha
+
+LOGIN
+- Login
+- Recuperar senha
+
+CADASTRAR CONDOMÍNIO (OK)
+- Nome
+- Localização
+- Quantidade de blocos
+- Quantidade de apartamentos
+- Quantidade de vagas por apto
+- Áreas comuns
+- Fotos
+
+CADASTRAR USUÁRIO DO CONDOMÍNIO (OK)
+- Nome
+- Tipo (inquilino/dono/funcionário)
+- Apartamento
+- Telefone
+- CPF
+- Veículos (se tiver)
+- Editar Usuário
+
+LISTA DE CONDOMÍNIOS (OK)
+- Lista com condomínios cadastrados
+
+DASHBOARD (OK)
+- Lista de Apartamentos
+Apresentando os apto's ocupados, vagos e seus respectivos usuários
+- Contas do condomínio
+Inserir todas as contas à pagar, contas à receber e uma calculadora para fazer a conta do condomínio
+- Controle de manutenções
+Ter uma lista de manutenções à serem realizadas mensalmente ou mediante necessidade, com um check para controle.
