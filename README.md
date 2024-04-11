@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="Unifacisa" src="https://img.shields.io/badge/Unifacisa-00599C?style=for-the-badge&logo=java&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div>
 
 # Unifacisa - Habitar Gestão Condominial 📲 
